@@ -4,5 +4,5 @@
 int main(){
 	char a;
     scanf("%c" , &a);
-    isdigit(a) ? printf("number") : islower(a) ? printf("lowercase") : printf("uppercase");
+    isdigit(a) ? printf("number") : islower(a) ? printf("lowercase") : isupper(a) ? printf("uppercase") : printf("error");
 }

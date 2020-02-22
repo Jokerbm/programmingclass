@@ -5,7 +5,7 @@ int main(){
    int i,j,count = 19;
    char str[50][60],temp[25];
    for(i=0;i<=count;i++){
-      scanf("%[^\n]%*c",str[i])
+      scanf("%[^\n]%*c",str[i]);
    }
    for(i=0;i<=count;i++){
    	str[i][0] = toupper(str[i][0]);
@@ -26,7 +26,7 @@ int main(){
          }
       }
    for(i=0;i<=count;i++)
-      printf("%s",str[i]);
+      printf("%s\n",str[i]);
    
    return 0;
 }
